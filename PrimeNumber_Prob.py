@@ -16,6 +16,8 @@ def gcd(a, b):
 s = 0
 num = 1
 
+# 試行回数、自然数の範囲は、ともに10000000とする
+# 実行時間は結構かかることに注意
 while num <= 10000000:
   a = random.randint(1,10000000)
   b = random.randint(1,10000000)
